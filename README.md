@@ -1,2 +1,2 @@
 # portfolio
-This is static portfolio page
+This is static portfolio web page
