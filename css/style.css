@@ -4,8 +4,13 @@
 	background-color: #eaeaea;
 	text-align: center;
 }
+/*###########################################################Navigation bar css ####################################################*/
 
+#title .color{
+	background-color: #222831;
+}
 
+/*#####################################################################Profile content css ######################################################## */
 #done{
   border:1px;
 	background-color: #fafafa;
@@ -15,15 +20,19 @@
 	/* background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
 }
 
+#done .profileImg{
+	 border-radius: 50%;
+}
+
+
+/* #################################################################### Content Css section####################################################### */
 
 #done_2{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-#done .profileImg{
-	 border-radius: 50%;
-}
+
 
 #hr{
 	margin-top: 0px;
@@ -32,8 +41,4 @@
 }
 
 
-
-#title .color{
-	background-color: #222831;
-}
 /* >>>>>>> e405f853e9d48504f06f0eacb29ab93c8c0ff23c */
