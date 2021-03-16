@@ -1,3 +1,16 @@
 #bodyID{
 	background-color: #9fd8df;
 }
+
+
+#done{
+  background-color: yellow;
+  border:1px solid;
+	background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+
+
+#title .color{
+	background-color: #b4aee8;
+}
