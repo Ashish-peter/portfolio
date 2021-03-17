@@ -4,6 +4,7 @@
 	background-color: #eaeaea;
 	text-align: center;
 }
+
 /*###########################################################Navigation bar css ####################################################*/
 
 #title .color{
@@ -77,18 +78,6 @@
 
 /* ################################################################################################################form section ##################################################################*/
 
-#form .formColor{
-	background-color: #282846;
-}
-
-#form{
-	margin-top: 20px;
-}
-
-#form .postionForm{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
 
 /* #################################################################################################################### testimonial ####################################################################### */
 
@@ -119,6 +108,38 @@
 	margin-right: 200px;
 
 }
+
+/* #################################################################### Registration Form CSS ################################################################# */
+
+#RegistrationbodyID{
+	background-color: #caf7e3;
+}
+
+.headingtext{
+	text-align: center;
+}
+
+#form .button{
+	text-align: center;
+}
+
+#form .formColor{
+	background-color: #282846;
+}
+
+#form{
+	margin-top: 20px;
+}
+
+#form .postionForm{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
 
 
 /* =======
