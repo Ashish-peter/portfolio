@@ -69,7 +69,56 @@
 }
 
 
+#footer .padding{
+	margin-top: 20px;
+}
 
+
+
+/* ################################################################################################################form section ##################################################################*/
+
+#form .formColor{
+	background-color: #282846;
+}
+
+#form{
+	margin-top: 20px;
+}
+
+#form .postionForm{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* #################################################################################################################### testimonial ####################################################################### */
+
+#testimonial{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #dddddd;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+#testimonial .testimonialImage{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#testimonial .testimonialColor{
+	background-color: #dddddd;
+}
+
+#testimonial .testimonialCentre{
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
 
 
 /* =======
