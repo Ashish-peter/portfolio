@@ -15,14 +15,17 @@ function getdata() {
     //   // console.log(ele.First);
     //   // console.log(ele.Last);
     // console.log(ele.Handle);
+
+
+
+
     const result = json.data[0].batch_name.length;
-    // console.log(result);
-
-
     if (result === result) {
       var element = document.getElementById("remove");
       element.classList.remove("spinner-border");
     }
+
+
 
 
 
