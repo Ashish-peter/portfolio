@@ -19,3 +19,18 @@ form.addEventListener('submit',e =>{
   }
 
 })
+
+
+const url = 'https://script.google.com/macros/s/AKfycbxA80IrGOcWyozo3xvlig3g75xjkTh5Y_zTcCYQN_FrPsR6zI_z-nyPeu6nFw5nGBhU/exec';
+getdata();
+
+function getdata() {
+  fetch(url).then((res) => {
+    return res.json()
+  }).then((json) => {
+
+    console.log(json.data);
+
+
+  })
+}
