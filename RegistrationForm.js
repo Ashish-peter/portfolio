@@ -25,8 +25,8 @@ function getdata() {
       var userContactNumber = document.getElementById("inputContactNo").value;
       // console.log(x);
 
-      var result1 = null;
-      var result2 = null;
+      var result1 = "";
+      var result2 = "";
       for (var i = 0; i < count; i++) {
         if (userContactNumber == json.data[i].contact_number) {
           result1 = userContactNumber;
@@ -37,17 +37,21 @@ function getdata() {
 
 
       if (result1 == result2) {
+
+        console.log("you arleady");
+
+
         //console.log('you already participated');
-        e.preventDefault()
-        fetch(scriptURL, {
-            method: 'POST',
-            //body: new FormData(form)
-          }).then(
-            response => alert("you already participated")
-          )
+        // e.preventDefault()
+        // fetch(scriptURL, {
+        //     method: 'POST',
+        //     //body: new FormData(form)
+        //   }).then(
+        //     response => alert("you already participated")
+        //   )
           //.catch(error => console.error('Error!', error.message))
         }
-      else {
+
         e.preventDefault()
         fetch(scriptURL, {
             method: 'POST',
@@ -56,7 +60,7 @@ function getdata() {
             response => alert("Thanks for Registering with us. We will contact you soon")
           )
           .catch(error => console.error('Error!', error.message))
-      }
+
 
 
 
