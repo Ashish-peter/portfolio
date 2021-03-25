@@ -1,0 +1,179 @@
+/* <<<<<<< HEAD
+======= */
+#bodyID{
+	background-color: #eaeaea;
+	text-align: center;
+	line-height: 1.5;
+}
+
+/*###########################################################Navigation bar css ####################################################*/
+
+#title .color{
+	background-color: #222831;
+}
+
+/*#####################################################################Profile content css ######################################################## */
+#done{
+	background-color: #fafafa;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	margin-top: 100px;
+	/* background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+}
+
+#done .profileImg{
+	 border-radius: 50%;
+}
+
+#done .profileParagraph{
+	font-family: 'Slabo 27px', serif;
+	font-size: 19px;
+}
+
+
+/* #################################################################### Content Css section####################################################### */
+
+#done_2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+#hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-top-width: 3px;
+}
+
+
+/* <<<<<<< HEAD */
+
+#title .color{
+	background-color: #222831;
+}
+
+/* #title .navPostion{
+	right:60px;
+} */
+
+
+
+/* ////////////////////////////////////////////////////////// newsEvents section ////////////////////////////////////////////////////////////////////////// */
+
+
+#newsEvents .newsPadding{
+	margin-top: 40PX;
+	margin-bottom: 40px;
+}
+
+
+#newsEvents .marqueePadding{
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+
+
+/* #######################################################################################################   navee section    #################################################################################### */
+
+
+#navee{
+  margin-left:125px;
+  margin-right: 125px;
+}
+
+#navee .colore{
+  background-color: #f9f3f3;
+}
+
+#navee .colore2{
+	background-color: #ffffff;
+}
+
+#navee .naveePadding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+#footer .padding{
+	margin-top: 20px;
+}
+
+
+
+/* ################################################################################################################video section ##################################################################*/
+
+#form .ShortVideo{
+	width: 260px;
+	height: 260px;
+}
+/* #################################################################################################################### testimonial ####################################################################### */
+
+#testimonial{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #dddddd;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+#testimonial .testimonialImage{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#testimonial .testimonialColor{
+	background-color: #dddddd;
+}
+
+#testimonial .testimonialCentre{
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+/* #################################################################### Registration Form CSS ################################################################# */
+
+#RegistrationbodyID{
+	background-color: #caf7e3;
+}
+
+.headingtext{
+	text-align: center;
+}
+
+#form .button{
+	text-align: center;
+}
+
+#form .formColor{
+	background-color: #282846;
+}
+
+#form{
+	margin-top: 20px;
+}
+
+#form .postionForm{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* =======
+>>>>>>> 5d191bbae35bc9e8496a242cfb91f8b1ad381bca */
+/* >>>>>>> e405f853e9d48504f06f0eacb29ab93c8c0ff23c */
