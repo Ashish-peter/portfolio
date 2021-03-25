@@ -19,6 +19,7 @@ function getdata() {
     // console.log(result);
 
 
+
     if (result === result) {
       var element = document.getElementById("remove");
       element.classList.remove("spinner-border");
