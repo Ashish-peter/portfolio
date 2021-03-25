@@ -3,6 +3,7 @@
 #bodyID{
 	background-color: #eaeaea;
 	text-align: center;
+	line-height: 1.5;
 }
 
 /*###########################################################Navigation bar css ####################################################*/
@@ -13,17 +14,21 @@
 
 /*#####################################################################Profile content css ######################################################## */
 #done{
-  border:1px;
 	background-color: #fafafa;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 20px;
-	margin-top: 80px;
+	margin-top: 100px;
 	/* background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
 }
 
 #done .profileImg{
 	 border-radius: 50%;
+}
+
+#done .profileParagraph{
+	font-family: 'Slabo 27px', serif;
+	font-size: 19px;
 }
 
 
@@ -49,6 +54,28 @@
 	background-color: #222831;
 }
 
+/* #title .navPostion{
+	right:60px;
+} */
+
+
+
+/* ////////////////////////////////////////////////////////// newsEvents section ////////////////////////////////////////////////////////////////////////// */
+
+
+#newsEvents .newsPadding{
+	margin-top: 40PX;
+	margin-bottom: 40px;
+}
+
+
+#newsEvents .marqueePadding{
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+
 
 /* #######################################################################################################   navee section    #################################################################################### */
 
@@ -63,11 +90,12 @@
 }
 
 #navee .colore2{
-	background-color: #fafafa;
+	background-color: #ffffff;
 }
 
 #navee .naveePadding{
-	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
@@ -80,14 +108,14 @@
 /* ################################################################################################################video section ##################################################################*/
 
 #form .ShortVideo{
-	width: 320px;
-	height: 320px;
+	width: 260px;
+	height: 260px;
 }
 /* #################################################################################################################### testimonial ####################################################################### */
 
 #testimonial{
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	background-color: #dddddd;
 	margin-left: 200px;
 	margin-right: 200px;
