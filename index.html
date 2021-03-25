@@ -21,7 +21,7 @@
   <!-- Navigation bar section -->
   <section id="title">
 
-    <nav class=" navbar   navbar-expand-lg  navbar-dark color navbars fixed-top">
+    <nav class=" navbar   navbar-expand-lg  navbar-dark color navbars fixed-top ">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
@@ -30,7 +30,7 @@
         </div>
 
         <a href="RegistrationForm.html">
-          <button type="submit" class="btn btn-outline-warning"> Click here to Register Yourself </button>
+          <button type="submit" class="btn btn-outline-warning shadow-lg rounded"> Click here to Register Yourself </button>
         </a>
 
         <!-- <ul class="nav navbar-nav navbar-right">
@@ -43,9 +43,9 @@
   <!-- Profile section -->
   <hr id="hr">
 
-  <div id="done">
+  <div id="done" class="shadow-lg p-3 mb-5 bg-white rounded ">
     <div class="row">
-      <div class="col-lg-3 col-md-4 col-sm-4">
+      <div class="col-lg-3 col-md-4 col-sm-4 ">
         <img class="profileImg" src="http://youngsterpoint.com/wp-content/uploads/2017/01/Abdul-Kalam.jpg" alt="Abdul kalam profile pic" height="200" width="200" />
       </div>
       <div class="col-lg-5 col-md-6 col-sm-8">
@@ -67,24 +67,30 @@
   </div>
   <!-- navee Section -->
 
-  <hr id="hr">
+  <!-- <hr id="hr"> -->
 
 
-  <section id="navee">
+  <section id="navee" class="shadow-lg bg-white rounded">
 
 
     <div class="col-lg-12 col-md-12 col-sm-12 naveePadding">
 
 
-      <ul class="nav nav-tabs nav-justified colore" id="myTab" role="tablist">
+      <ul class="nav nav-tabs nav-justified colore " id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+            <h4><i class="fas fa-briefcase"></i> Experience</h4>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navee2 postionA" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+          <a class="nav-link navee2 postionA" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+            <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navee3" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+          <a class="nav-link navee3" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
+            <h4><i class="fas fa-star"></i> Skills</h4>
+          </a>
         </li>
       </ul>
 
@@ -109,36 +115,46 @@
 
 
 
-<!-- //////////////////////////////////////////////////////////////////////////////  newsEvents ////////////////////////////////////////////////////////////////////////////////// -->
+  <!-- //////////////////////////////////////////////////////////////////////////////  newsEvents ////////////////////////////////////////////////////////////////////////////////// -->
 
 
-    <section id="newsEvents">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm ">
-            <ul class="nav nav-tabs nav-justified colore" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active bg-warning text-dark" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">  <h2> <i class="far fa-clipboard fa-1x"></i> Notice Board</h2> </a>
-              </li>
-            </ul>
+  <section id="newsEvents">
+    <div class="container newsPadding">
+      <div class="row">
+        <div class="col-sm ">
+          <ul class="nav nav-tabs nav-justified colore" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active bg-warning text-dark" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                <h2> <i class="far fa-clipboard fa-1x"></i> Notice Board</h2>
+              </a>
+            </li>
+          </ul>
 
-            <div class="tab-content centers colore2 " id="myTabContent">
-              <div class="tab-pane fade show active " id="home" role="tabpanel" aria-labelledby="home-tab">
-                <marquee scrollamount="1" behaviour="scroll" direction="up" class="text-warning bg-dark" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis
-                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </marquee>
-              </div>
+          <div class="tab-content centers " id="myTabContent">
+            <div class="tab-pane fade show active " id="home" role="tabpanel" aria-labelledby="home-tab">
+              <marquee scrollamount="1" behaviour="scroll" direction="up" class="text-warning bg-dark marqueePadding">
+                <h4 class="newsEventsWidth">
+                  Date:18.10.2019
+                </h4>
+                  <li class="newsEventsWidth">
+                  Dear Parents: PTM will be held on Saturday 19th October,2019, as per the schedule mentioned below.
+                  Classes (VI to XII ) 08:00 am to10:00am.
+                  Classes (PN to V) 10:15 am to 12:00 pm.
+                  Kindly follow the given schedule to avoid inconvenience to others
+                  Regards GDGPS, Agra
+                </li>
+              </marquee>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-    </section>
+  </section>
 
 
 
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////student feedback section ///////////////////////////////////////////////////////////////// -->
+  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////student feedback section ///////////////////////////////////////////////////////////////// -->
 
 
 
@@ -192,8 +208,8 @@
         </div>
 
         <!--video -->
-        <div class="col-sm-6 col-md-6 col-lg-6">
-          <video class="ShortVideo" controls>
+        <div class="col-sm-6 col-md-6 col-lg-6 ">
+          <video class="ShortVideo shadow-lg bg-white rounded" controls>
             <source src="F:\movies\Punjabi songs\Black Till - Girik Aman - Dr. Zeus - Fateh (HD 720p).mp4" type="video/mp4">
           </video>
         </div>
