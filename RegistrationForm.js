@@ -41,7 +41,11 @@ function getdata() {
               if (userContactNumber == json.data[i].contact_number) {
                 result1 = userContactNumber;
                 result2 = json.data[i].contact_number;
+                //next html page
                 alert("you already singup");
+
+
+
                 break;
               }
             }
@@ -75,4 +79,4 @@ function getdata() {
 //     response=> alert("Thanks for Registering with us. We will contact you soon")
 //   )
 //   .catch(error=> console.error('Error!', error.message))
-// }) 
+// })
