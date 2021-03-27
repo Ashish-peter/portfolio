@@ -42,7 +42,8 @@ function getdata() {
                 result1 = userContactNumber;
                 result2 = json.data[i].contact_number;
                 //next html page
-                alert("you already singup");
+                // alert("you already singup");
+                window.location.replace("AlreadyRegistered.html");
 
 
 

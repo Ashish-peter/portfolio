@@ -4,6 +4,11 @@
 	background-color: #eaeaea;
 	text-align: center;
 	line-height: 1.5;
+	background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*###########################################################Navigation bar css ####################################################*/
@@ -15,12 +20,17 @@
 /*#####################################################################Profile content css ######################################################## */
 #done{
 	background-color: #fafafa;
-	
+
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 20px;
-	margin-top: 100px;
+	margin-top: 70px;
 	/* background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+	background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #done .profileImg{
