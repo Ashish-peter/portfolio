@@ -2,7 +2,9 @@
 
 //##############################################################Registration Form JS Code #########################################################
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwfQOoUuMG8UfqRjd4AZkSSLCQwKUE1v92czC0MRGxKe0l-hqnwTAwDptwolrukfw52/exec';
+// https://script.google.com/macros/s/AKfycbwfQOoUuMG8UfqRjd4AZkSSLCQwKUE1v92czC0MRGxKe0l-hqnwTAwDptwolrukfw52/exec
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwYZxoEyHuD6g4BHcnINTDL538EbLYZ_6J1zJUkLUYmN5rAbaiKqkBmErp9romq_EpV/exec';
 const form = document.forms['Registration Form Details'];
 
 getdata()
