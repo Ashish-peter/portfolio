@@ -1,8 +1,14 @@
 /* <<<<<<< HEAD
 ======= */
 #bodyID{
-	background-color: #eaeaea;
+	background-color: #f67280;
 	text-align: center;
+	line-height: 1.5;
+	background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*###########################################################Navigation bar css ####################################################*/
@@ -13,17 +19,27 @@
 
 /*#####################################################################Profile content css ######################################################## */
 #done{
-  border:1px;
 	background-color: #fafafa;
+
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 20px;
-	margin-top: 80px;
+	margin-top: 70px;
 	/* background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+	background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #done .profileImg{
 	 border-radius: 50%;
+}
+
+#done .profileParagraph{
+	font-family: 'Slabo 27px', serif;
+	font-size: 19px;
 }
 
 
@@ -49,6 +65,28 @@
 	background-color: #222831;
 }
 
+/* #title .navPostion{
+	right:60px;
+} */
+
+
+
+/* ////////////////////////////////////////////////////////// newsEvents section ////////////////////////////////////////////////////////////////////////// */
+
+
+#newsEvents .newsPadding{
+	margin-top: 40PX;
+	margin-bottom: 40px;
+}
+
+
+#newsEvents .marqueePadding{
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+
 
 /* #######################################################################################################   navee section    #################################################################################### */
 
@@ -63,11 +101,12 @@
 }
 
 #navee .colore2{
-	background-color: #fafafa;
+	background-color: #ffffff;
 }
 
 #navee .naveePadding{
-	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
@@ -80,14 +119,14 @@
 /* ################################################################################################################video section ##################################################################*/
 
 #form .ShortVideo{
-	width: 320px;
-	height: 320px;
+	width: 260px;
+	height: 260px;
 }
 /* #################################################################################################################### testimonial ####################################################################### */
 
 #testimonial{
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	background-color: #dddddd;
 	margin-left: 200px;
 	margin-right: 200px;
@@ -117,6 +156,11 @@
 
 #RegistrationbodyID{
 	background-color: #caf7e3;
+	background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .headingtext{
@@ -141,8 +185,21 @@
 }
 
 
+/* ########################################################################################### map section ##########################################################################*/
 
+.map{
+	width: 100%;
+	height:50%;
+	background-color: #feffde;
+	margin-top: 40px;
+	margin-bottom: 40px;
 
+}
+
+.mapBox{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
 
 
