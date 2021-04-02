@@ -17,8 +17,29 @@ function getdata() {
     var date = today.toLocaleDateString("en-US", options);
     document.getElementById("date").innerHTML = date;
 
-    console.log(json.data[0].important_notice);
-      document.getElementById("notice").innerHTML = json.data[0].important_notice
+    var count = 0; //global var
+    json.data.forEach((ele => {
+      count++;
+    }));
+
+    for(var i=0 ; i<count; i++){
+      var notice = document.getElementById("notice");
+      var li = document.createElement("li");
+      li.appendChild(document.createTextNode(json.data[i].important_notice));
+      notice.appendChild(li);
+    }
+
+
+
+
+
+
+
+
+
+
+    // console.log(json.data[0].important_notice);
+    //   document.getElementById("notice").innerHTML = json.data[0].important_notice
         // document.getElementById("notice").innerHTML = json.data[0].important_notice;//dynamic
 
   })
