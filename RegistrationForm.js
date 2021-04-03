@@ -51,6 +51,7 @@ function getdata() {
 
                 break;
               }
+              window.location.replace("SuccessfullyRegistered.html");
             }
             // console.log(result1);
             // console.log(result2);
