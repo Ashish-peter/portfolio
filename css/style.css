@@ -1,5 +1,5 @@
-/* <<<<<<< HEAD
-======= */
+
+
 #bodyID{
 	background-color: white;
 	text-align: center;
@@ -220,6 +220,8 @@
 .mapBox{
 	margin-top: 40px;
 	margin-bottom: 40px;
+	border: 1px;
+	border-color: black;
 }
 
 /*########################################################################## successfully Registered page ######################################################*/
@@ -233,15 +235,16 @@
 }
 
 
+/*################################################################ loader css ###########################################################################*/
 
+.loaderclass {
+	position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+	background: rgba(0,0,0,0.75) url(/image/loading1.gif) no-repeat center center;
+	z-index: 10000;
 
-
-
-
-
-
-
-
-/* =======
->>>>>>> 5d191bbae35bc9e8496a242cfb91f8b1ad381bca */
-/* >>>>>>> e405f853e9d48504f06f0eacb29ab93c8c0ff23c */
+}

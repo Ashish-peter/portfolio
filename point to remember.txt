@@ -1,12 +1,14 @@
-1. Dynamic list kaise banate hai HTML me for giving it to notice board
+1. Dynamic list HTML me for giving it to notice board--------------X
 2.maximum number of notice i.e. 5 or 6.
 rest notice will come in view message
-3.dynamic date change in notice
+3.dynamic date change in notice-----------------------------------------------------X
 4. Batch timing format
-5.Duplicacy in table
+5.Duplicacy in table----------------------------------------------------------------X
 6.row and column in spreadsheet to be fixed
 7. removal of underscore
-8. already registered ,successfully registered and loading page
-9. Google map to add.
-10. footer to be updated.
+8. already registered ,successfully registered and loading page---------------------X
+9. Google map to add.---------------------------------------------------------------X
+10. footer to be updated.-----------------------------------------------------------X
+11. Mobile no and email format in registration
+12. border for map 
 Documentation

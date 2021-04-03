@@ -1,11 +1,14 @@
-//alert("hello");
+
 
 //##############################################################Registration Form JS Code #########################################################
 
-// https://script.google.com/macros/s/AKfycbwfQOoUuMG8UfqRjd4AZkSSLCQwKUE1v92czC0MRGxKe0l-hqnwTAwDptwolrukfw52/exec
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwYZxoEyHuD6g4BHcnINTDL538EbLYZ_6J1zJUkLUYmN5rAbaiKqkBmErp9romq_EpV/exec';
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz15sRsSniaHFj9ufBwhHCDmVDrIHpft8mJ8EIbR_7I-mGwJurxUphV7QzER0kdtY5p/exec';
 const form = document.forms['Registration Form Details'];
+
+var element = document.getElementById("loader");
+element.classList.remove("loaderclass");
 
 getdata()
 
@@ -22,6 +25,8 @@ function getdata() {
     form.addEventListener('submit', e => {
 
       e.preventDefault()
+      var element = document.getElementById("loader");
+      element.classList.add("loaderclass");
       fetch(scriptURL, {
           method: 'POST',
           body: new FormData(form)
@@ -50,7 +55,7 @@ function getdata() {
 
 
                 break;
-              }
+              }6
               window.location.replace("SuccessfullyRegistered.html");
             }
             // console.log(result1);

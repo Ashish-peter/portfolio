@@ -21,8 +21,8 @@ function getdata() {
 
 
     if (result === result) {
-      var element = document.getElementById("remove");
-      element.classList.remove("spinner-border");
+      var element = document.getElementById("loader");
+      element.classList.remove("loaderclass");
     }
 
 
