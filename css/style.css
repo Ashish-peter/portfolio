@@ -16,6 +16,10 @@
 #title .color{
 	background-color: #222831;
 }
+#title .RightArrow{
+	width: 20%;
+	height: 20%;
+}
 
 /*#####################################################################Profile content css ######################################################## */
 #done{
@@ -121,22 +125,23 @@
 
 
 
-/* ################################################################################################################video section ##################################################################*/
+/* ################################################################################################################video section& batchtable ##################################################################*/
 
-#form .ShortVideo{
-	width: 260px;
-	height: 260px;
+#batchTable .batchTableBG{
+	background: url("../image/indexbackgroundimage9.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-#form .formRow{
-	margin-left: 0px;
-	margin-right: 0px;
+#batchTable .click{
+
+		width: 20%;
+		height: 20%;
 }
 
-#form .formGrid{
-	padding-left: 0px;
-	padding-right: 0px;
-}
+
 /* #################################################################################################################### testimonial ####################################################################### */
 
 #testimonial{
