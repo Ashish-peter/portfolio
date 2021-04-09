@@ -45,24 +45,7 @@
 }
 
 
-/* #################################################################### Content Css section####################################################### */
-
-#done_2{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-
-
-#hr{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	border-top-width: 3px;
-}
-
-
-
-/* ////////////////////////////////////////////////////////// newsEvents section ////////////////////////////////////////////////////////////////////////// */
+/* /////////// newsEvents section ///////////////// */
 
 
 #newsEvents .newsPadding{
@@ -84,27 +67,29 @@
 
 
 
-/* #######################################################################################################   navee section    #################################################################################### */
+/* ############### navee section #################### */
 
 
-#navee{
+#biodata{
   margin-left:125px;
   margin-right: 125px;
 }
 
-#navee .colore{
+#biodata .tabcolor{
   background-color: #f9f3f3;
 }
 
-#navee .colore2{
+#biodata .contentcolor{
 	background-color: #ffffff;
 }
 
-#navee .naveePadding{
+#biodata .biodataPadding{
 	padding-left: 0px;
 	padding-right: 0px;
 }
 
+
+/* #### footer css #####*/
 
 #footer .padding{
 	margin-top: 20px;
